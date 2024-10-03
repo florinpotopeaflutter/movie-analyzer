@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="1.216">
+  <testsuite name="test/MoviesAnalyzer.spec.js" errors="0" failures="0" skipped="0" timestamp="2024-10-03T17:07:53" time="0.598" tests="4">
+    <testcase classname="MoviesAnalyzer" name="should return top watchlisted movies among friends for user 15291" time="0.007">
+    </testcase>
+    <testcase classname="MoviesAnalyzer" name="should return top watchlisted movies among friends for user 7001" time="0">
+    </testcase>
+    <testcase classname="MoviesAnalyzer" name="should return top watchlisted movies among friends for user 51417" time="0.001">
+    </testcase>
+    <testcase classname="MoviesAnalyzer" name="should return top watchlisted movies among friends for user 62289" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/exampleFromReadme.spec.js" errors="0" failures="0" skipped="0" timestamp="2024-10-03T17:07:53" time="0.603" tests="1">
+    <testcase classname="ExampleFromReadme" name="should return top watchlisted movies among friends for user 62289" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>

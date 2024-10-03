@@ -3,7 +3,7 @@
   "private": true,
   "author": "Flutter",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testTimeout=10000 --verbose --ci --testResultsProcessor=\"jest-junit\""
+    "test": "jest --testTimeout=10000 --verbose --ci --testResultsProcessor=\"jest-junit\""
 
   },
   "devDependencies": {
