@@ -93,15 +93,13 @@ const users = [
 ];
 
 describe("ExampleFromReadme", () => {
-  describe("topFavouriteMoviesAmongFriends", () => {
-    it(`should return top watchlisted movies among friends for user 62289`, () => {
-      const analyzer = new MoviesAnalyzer(movies, users);
-      const actual = analyzer.topWatchlistedMoviesAmongFriends(62289);
-      expect(actual).toEqual([
-        "Schindler's List",
-        "Pulp Fiction",
-        "The Shawshank Redemption",
-      ]);
-    });
+  test("should return top watchlisted movies among friends for user 62289", () => {
+    const analyzer = new MoviesAnalyzer(movies, users);
+    const actual = analyzer.topWatchlistedMoviesAmongFriends(62289);
+    expect(actual).toEqual([
+      "Schindler's List",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+    ]);
   });
 });
