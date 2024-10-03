@@ -150,6 +150,5 @@ Your implementation should return following output for **userId=62289** for exam
 
 1. `npm install` – install dependencies
 2. `npm test` – run all tests once (this will be used to evaluate your solutions)
-3. `npm run test:watch` - run all tests in _watch mode_ (optionally, you can use it locally if you prefer)
 
 ## Good luck!

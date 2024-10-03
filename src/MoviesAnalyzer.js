@@ -1,13 +1,13 @@
-export class MoviesAnalyzer {
+class MoviesAnalyzer {
+  constructor(movies, users) {
+    this.movies = movies;
+    this.users = users;
+  }
 
-    constructor(movies, users) {
-        this.movies = movies;
-        this.users = users;
-    }
-
-    topWatchlistedMoviesAmongFriends(userId) {
-        // TODO: Implement
-        return [];
-    }
-
+  topWatchlistedMoviesAmongFriends(userId) {
+    // TODO: Implement
+    return [];
+  }
 }
+
+module.exports = MoviesAnalyzer;

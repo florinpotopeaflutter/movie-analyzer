@@ -1,11 +1,9 @@
-import { MoviesAnalyzer } from "../src/MoviesAnalyzer";
-const { movies, users } = require('./data.json');
-const testcases = require('./testcases.json');
+const MoviesAnalyzer = require("../src/MoviesAnalyzer");
+const { movies, users } = require("./data.json");
+const testcases = require("./testcases.json");
 
-describe('MoviesAnalyzer', () => {
-
-  describe('topWatchlistedMoviesAmongFriends', () => {
-
+describe("MoviesAnalyzer", () => {
+  describe("topWatchlistedMoviesAmongFriends", () => {
     const analyzer = new MoviesAnalyzer(movies, users);
     testcases.forEach(({ userId, expected }) => {
       it(`should return top watchlisted movies among friends for user ${userId}`, () => {
